@@ -1,0 +1,71 @@
+#start {
+    font-size: 100px;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    justify-content: space-between;
+    
+  }
+  #join{
+    font-size: 100px;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    justify-content: space-between;
+  }
+  .navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: lightgreen; /* Dark background color */
+    width: 100%;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+}
+  
+  
+  
+/* *{
+    margin:0;
+    padding:0;
+}
+body,html {
+    background: #2e2e2e;
+}
+.container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    width:100%;
+}
+.container a{
+    text-decoration: none;
+    color:white;
+    background: #4b6584;  
+    padding: 20px 40px;
+    font-size: 18px;
+    border-radius: 10px;  
+}
+ */
